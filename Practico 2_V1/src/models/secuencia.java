@@ -2,10 +2,10 @@ package models;
 
 public class secuencia {
 
-    int jugadorFila = 0;
-    int jugadorCol = 0;
-    int puntaje = 100;
-    boolean jugando = true;
+   private int jugadorFila = 0;
+   private int jugadorCol = 0;
+   private int puntaje = 100;
+   private boolean jugando = true;
 
 public secuencia() {
     this.puntaje = 100;
