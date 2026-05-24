@@ -1,0 +1,61 @@
+﻿Java-lenguaje principal
+Estructura:
+Main.java = control principal del programa 
+Celda.java = representación de casilla 
+Matriz.java = controla jugador y lógica
+• Class main 
+Clase principal = se encarga de ejecutar el juego 
+
+
+‌crea el tablero 
+‌lee movimientos
+‌controla el bucle principal 
+‌muestra mensajes
+Métodos importantes: 
+main(String[] args) =
+Punto inicial 
+Clase celda
+Representa cada espacio individual de la matriz 
+
+
+Métodos:
+getContenido()= obtiene el contenido 
+SerContenido()=modifica el contenido 
+Limpiar()= vacía la celda 
+
+
+Clase matriz 
+Función= administración del tablero 
+( Tabla celda[][])
+Métodos importantes: 
+
+
+Inicializarmatriz()
+Inicializa todas las celdas
+mostrar()
+Imprimir tablero en consola
+getCelda()
+
+
+Clase secuencia 
+función: gestionar el estado del jugador y las reglas del juego 
+Variables principales:
+jugadorFila= posición vertical 
+jugadorCol= posición horizontal 
+Puntaje= puntaje actual 
+jugando= estado del juego 
+
+
+Funcionamiento:
+W=arriba 
+S=abajo 
+A=izquierda 
+D=derecha 
+
+
+Elementos del tablero 
+S=inicio
+O=objetivo 
+P=potenciador
+M=modificador
+X=jugador
